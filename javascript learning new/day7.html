@@ -72,6 +72,52 @@
         let result = add(num1, num2);
         document.write(`${num1} + ${num2} = ${result}`);
         */
+
+        /*
+        // after return, function will be stopped.
+        function oneTwo()
+        {
+            console.log("One");
+            return;
+            console.log("Two");
+        }
+        oneTwo(); // nothing print Two
+        */
+
+        /*
+        // Function expressions
+        const greet = function(){   // function can be stored inside a variable
+            console.log("Hello");
+        }
+        greet();
+        */
+
+        /*
+        // arrow function
+        const add = (a,b)=> {
+            console.log(a+b);
+        }
+
+        add(5,6);
+
+        // short arrow function
+        const name = (n)=>("Yehan");
+        console.log(name());
+        */
+
+        /*
+        // Scope
+        // Scope determenes where variables can be used.
+        // Global variable - Accessible everywhere
+        let message = "Hello";
+
+        function greeting()
+        {
+            console.log(message);
+        }
+
+        greeting();
+
     </script>
 </body>
 </html>
